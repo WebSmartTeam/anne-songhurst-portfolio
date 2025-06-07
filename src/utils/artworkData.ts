@@ -12,7 +12,7 @@ export const recentWorksData: Artwork[] = [
     price: 'POA',
     available: true,
     description: 'A beautiful still life featuring fresh lemons in a woven basket, painted in the style of Dutch Masters.',
-    imagePath: '/images/galleries/recent-works/basket-with-lemons/anne-songhurst--basket_with_lemons_10x10.jpg',
+    imagePath: '/images/paintings/recent-works/basket-with-lemons/anne-songhurst--basket_with_lemons_10x10.jpg',
     slug: 'basket-with-lemons',
     featured: true,
     tags: ['still life', 'lemons', 'basket', 'contemporary']
@@ -27,7 +27,7 @@ export const recentWorksData: Artwork[] = [
     price: 'POA',
     available: true,
     description: 'An elegant composition of artisanal cheese and fresh grapes.',
-    imagePath: '/images/galleries/recent-works/cheese-and-grapes/anne-songhurst-cheese-and-grapes-10x12-.jpg',
+    imagePath: '/images/paintings/recent-works/cheese-and-grapes/anne-songhurst-cheese-and-grapes-10x12-.jpg',
     slug: 'cheese-and-grapes',
     tags: ['still life', 'cheese', 'grapes', 'food']
   },
@@ -41,7 +41,7 @@ export const recentWorksData: Artwork[] = [
     price: 'POA',
     available: true,
     description: 'Delicate pears arranged in an antique Chinese porcelain bowl.',
-    imagePath: '/images/galleries/recent-works/chinese-bowl-with-pears/anne-songhurst-chinese-bowl-with-pears-8x10.jpg',
+    imagePath: '/images/paintings/recent-works/chinese-bowl-with-pears/anne-songhurst-chinese-bowl-with-pears-8x10.jpg',
     slug: 'chinese-bowl-with-pears',
     tags: ['still life', 'pears', 'chinese porcelain', 'antique']
   },
@@ -55,7 +55,7 @@ export const recentWorksData: Artwork[] = [
     price: 'POA',
     available: true,
     description: 'Bright lemons displayed with an antique Chinese tea caddy.',
-    imagePath: '/images/galleries/recent-works/chinese-caddy-with-lemons/anne-songhurst-chinese-caddy-with-lemons-10x10.jpg',
+    imagePath: '/images/paintings/recent-works/chinese-caddy-with-lemons/anne-songhurst-chinese-caddy-with-lemons-10x10.jpg',
     slug: 'chinese-caddy-with-lemons',
     tags: ['still life', 'lemons', 'chinese', 'tea caddy']
   },
@@ -69,7 +69,7 @@ export const recentWorksData: Artwork[] = [
     price: 'POA',
     available: true,
     description: 'A harmonious arrangement of lemons with fine Chinese porcelain.',
-    imagePath: '/images/galleries/recent-works/chinese-porcelain-with-lemons/anne-songhurst-chinese-porcelain-with-lemons-12x12.jpg',
+    imagePath: '/images/paintings/recent-works/chinese-porcelain-with-lemons/anne-songhurst-chinese-porcelain-with-lemons-12x12.jpg',
     slug: 'chinese-porcelain-with-lemons',
     tags: ['still life', 'lemons', 'chinese porcelain', 'ceramic']
   },
@@ -83,7 +83,7 @@ export const recentWorksData: Artwork[] = [
     price: 'POA',
     available: true,
     description: 'Farm fresh eggs alongside a charming cockerel-decorated jug.',
-    imagePath: '/images/galleries/recent-works/cockerel-jug-with-eggs/anne-songhurst-cockerel-jug-with-eggs-10x12.jpg',
+    imagePath: '/images/paintings/recent-works/cockerel-jug-with-eggs/anne-songhurst-cockerel-jug-with-eggs-10x12.jpg',
     slug: 'cockerel-jug-with-eggs',
     featured: true,
     tags: ['still life', 'eggs', 'cockerel', 'farm fresh']
@@ -98,7 +98,7 @@ export const recentWorksData: Artwork[] = [
     price: 'POA',
     available: true,
     description: 'Sweet clementines arranged in a burnished copper pan.',
-    imagePath: '/images/galleries/recent-works/copper-pan-with-clementines/anne-songhurst-copper-pan-with-clementines-8x10.jpg',
+    imagePath: '/images/paintings/recent-works/copper-pan-with-clementines/anne-songhurst-copper-pan-with-clementines-8x10.jpg',
     slug: 'copper-pan-with-clementines',
     tags: ['still life', 'clementines', 'copper', 'citrus']
   },
@@ -112,7 +112,7 @@ export const recentWorksData: Artwork[] = [
     price: 'POA',
     available: true,
     description: 'Rich purple plums displayed in an antique copper pot.',
-    imagePath: '/images/galleries/recent-works/copper-pot-with-plums/anne-songhurst-copper-pot-with-plums-12x10.jpg',
+    imagePath: '/images/paintings/recent-works/copper-pot-with-plums/anne-songhurst-copper-pot-with-plums-12x10.jpg',
     slug: 'copper-pot-with-plums',
     tags: ['still life', 'plums', 'copper', 'antique']
   },
@@ -126,7 +126,7 @@ export const recentWorksData: Artwork[] = [
     price: 'POA',
     available: true,
     description: 'Fresh tomatoes in vintage enamelware, capturing summer abundance.',
-    imagePath: '/images/galleries/recent-works/enamelware-with-tomatoes/anne-songhurst--enamelware-with-tomatoes-12x12-.jpg',
+    imagePath: '/images/paintings/recent-works/enamelware-with-tomatoes/anne-songhurst--enamelware-with-tomatoes-12x12-.jpg',
     slug: 'enamelware-with-tomatoes',
     tags: ['still life', 'tomatoes', 'enamelware', 'vintage']
   },
@@ -140,7 +140,7 @@ export const recentWorksData: Artwork[] = [
     price: 'POA',
     available: true,
     description: 'Ripe figs elegantly arranged on polished silver plate.',
-    imagePath: '/images/galleries/recent-works/figs-on-a-silver-plate/anne_-songhurst_-figs_on_a_silver_plate_10x12.jpg',
+    imagePath: '/images/paintings/recent-works/figs-on-a-silver-plate/anne_-songhurst_-figs_on_a_silver_plate_10x12.jpg',
     slug: 'figs-on-silver-plate',
     tags: ['still life', 'figs', 'silver', 'elegant']
   },
@@ -154,7 +154,7 @@ export const recentWorksData: Artwork[] = [
     price: 'POA',
     available: true,
     description: 'Vibrant mandarin oranges capturing the essence of winter citrus.',
-    imagePath: '/images/galleries/recent-works/mandarins/anne-songhurst-mandarins-12x12.jpg',
+    imagePath: '/images/paintings/recent-works/mandarins/anne-songhurst-mandarins-12x12.jpg',
     slug: 'mandarins',
     tags: ['still life', 'mandarins', 'citrus', 'winter']
   },
@@ -168,7 +168,7 @@ export const recentWorksData: Artwork[] = [
     price: 'POA',
     available: false,
     description: 'Farm eggs nestled in an antique Ming dynasty bowl.',
-    imagePath: '/images/galleries/recent-works/ming-bowl-with-eggs/f2738aca-c03b-4c0b-abb5-796d3475f730.jpg',
+    imagePath: '/images/paintings/recent-works/ming-bowl-with-eggs/f2738aca-c03b-4c0b-abb5-796d3475f730.jpg',
     slug: 'ming-bowl-with-eggs',
     tags: ['still life', 'eggs', 'ming', 'antique']
   },
@@ -182,7 +182,7 @@ export const recentWorksData: Artwork[] = [
     price: 'POA',
     available: true,
     description: 'Summer peaches paired with a glass of white wine.',
-    imagePath: '/images/galleries/recent-works/peaches-and-white-wine/anne-songhurst-peaches-and-white-wine-10x12-.jpg',
+    imagePath: '/images/paintings/recent-works/peaches-and-white-wine/anne-songhurst-peaches-and-white-wine-10x12-.jpg',
     slug: 'peaches-and-white-wine',
     featured: true,
     tags: ['still life', 'peaches', 'wine', 'summer']
@@ -197,7 +197,7 @@ export const recentWorksData: Artwork[] = [
     price: 'POA',
     available: true,
     description: 'Jewel-like redcurrants with polished silver serving pieces.',
-    imagePath: '/images/galleries/recent-works/redcurrants-and-silverware/anne-songhurst-redcurrants-and-silverware-12x12-.jpg',
+    imagePath: '/images/paintings/recent-works/redcurrants-and-silverware/anne-songhurst-redcurrants-and-silverware-12x12-.jpg',
     slug: 'redcurrants-and-silverware',
     tags: ['still life', 'redcurrants', 'silverware', 'berries']
   },
@@ -211,7 +211,7 @@ export const recentWorksData: Artwork[] = [
     price: 'POA',
     available: true,
     description: 'Golden apricots complemented by reflective silver surfaces.',
-    imagePath: '/images/galleries/recent-works/silver-jug-with-apricots/anne-songhurst-silver-jug-with-apricots-10x12-.jpg',
+    imagePath: '/images/paintings/recent-works/silver-jug-with-apricots/anne-songhurst-silver-jug-with-apricots-10x12-.jpg',
     slug: 'silver-jug-with-apricots',
     tags: ['still life', 'apricots', 'silver', 'reflections']
   },
@@ -225,7 +225,7 @@ export const recentWorksData: Artwork[] = [
     price: 'POA',
     available: true,
     description: 'Dark blackberries creating contrast with polished silver.',
-    imagePath: '/images/galleries/recent-works/silver-jug-with-blackberries/anne-songhurst-silver-jug-with-blackberries-8x10.jpg',
+    imagePath: '/images/paintings/recent-works/silver-jug-with-blackberries/anne-songhurst-silver-jug-with-blackberries-8x10.jpg',
     slug: 'silver-jug-with-blackberries',
     tags: ['still life', 'blackberries', 'silver', 'contrast']
   },
@@ -239,7 +239,7 @@ export const recentWorksData: Artwork[] = [
     price: 'POA',
     available: true,
     description: 'Fresh cherries alongside a polished silver jug, showcasing reflective surfaces.',
-    imagePath: '/images/galleries/recent-works/silver-jug-with-cherries/anne-songhurst-silver-jug-with-cherries-10x10-.jpg',
+    imagePath: '/images/paintings/recent-works/silver-jug-with-cherries/anne-songhurst-silver-jug-with-cherries-10x10-.jpg',
     slug: 'silver-jug-with-cherries',
     tags: ['still life', 'cherries', 'silver', 'reflections']
   },
@@ -253,7 +253,7 @@ export const recentWorksData: Artwork[] = [
     price: 'POA',
     available: true,
     description: 'Mediterranean olives displayed with elegant silverware.',
-    imagePath: '/images/galleries/recent-works/silver-jug-with-olives/9b8f7868-8a02-41b4-b6c3-7c79a4aeac30.jpg',
+    imagePath: '/images/paintings/recent-works/silver-jug-with-olives/9b8f7868-8a02-41b4-b6c3-7c79a4aeac30.jpg',
     slug: 'silver-jug-with-olives',
     tags: ['still life', 'olives', 'silver', 'mediterranean']
   },
@@ -267,7 +267,7 @@ export const recentWorksData: Artwork[] = [
     price: 'POA',
     available: true,
     description: 'Bright lemons paired with an antique silver tankard.',
-    imagePath: '/images/galleries/recent-works/silver-tankard-with-lemons/silver-tankard-with-lemons-12x12.jpg',
+    imagePath: '/images/paintings/recent-works/silver-tankard-with-lemons/silver-tankard-with-lemons-12x12.jpg',
     slug: 'silver-tankard-with-lemons',
     tags: ['still life', 'lemons', 'silver', 'tankard']
   },
@@ -281,7 +281,7 @@ export const recentWorksData: Artwork[] = [
     price: 'POA',
     available: true,
     description: 'Juicy nectarines accompanied by polished silver serving pieces.',
-    imagePath: '/images/galleries/recent-works/silverware-with-nectarines/anne-songhurst-silverware-with-nectarines-12x10-.jpg',
+    imagePath: '/images/paintings/recent-works/silverware-with-nectarines/anne-songhurst-silverware-with-nectarines-12x10-.jpg',
     slug: 'silverware-with-nectarines',
     tags: ['still life', 'nectarines', 'silverware', 'summer fruit']
   },
@@ -295,7 +295,7 @@ export const recentWorksData: Artwork[] = [
     price: 'POA',
     available: true,
     description: 'Delicate snowdrops in blue glass, heralding spring\'s arrival.',
-    imagePath: '/images/galleries/recent-works/snowdrops-and-blue-glass/9c13b800-6e7b-4b0f-8862-b6d7d16d3342.jpg',
+    imagePath: '/images/paintings/recent-works/snowdrops-and-blue-glass/9c13b800-6e7b-4b0f-8862-b6d7d16d3342.jpg',
     slug: 'snowdrops-and-blue-glass',
     tags: ['still life', 'snowdrops', 'blue glass', 'spring']
   },
@@ -309,7 +309,7 @@ export const recentWorksData: Artwork[] = [
     price: 'POA',
     available: true,
     description: 'An elegant composition featuring green glass vessels and natural elements.',
-    imagePath: '/images/galleries/recent-works/still-life-with-green-glass/still-life-with-green-glass-12x16.jpg',
+    imagePath: '/images/paintings/recent-works/still-life-with-green-glass/still-life-with-green-glass-12x16.jpg',
     slug: 'still-life-with-green-glass',
     tags: ['still life', 'green glass', 'vessels', 'elegant']
   },
@@ -323,7 +323,7 @@ export const recentWorksData: Artwork[] = [
     price: 'POA',
     available: false,
     description: 'Crisp apples arranged with traditional stoneware pottery.',
-    imagePath: '/images/galleries/recent-works/stoneware-flagon-with-apples/b923f897-aff8-4d06-883f-cfc92b6a5cf4.jpg',
+    imagePath: '/images/paintings/recent-works/stoneware-flagon-with-apples/b923f897-aff8-4d06-883f-cfc92b6a5cf4.jpg',
     slug: 'stoneware-flagon-with-apples',
     tags: ['still life', 'apples', 'stoneware', 'pottery']
   },
@@ -337,7 +337,7 @@ export const recentWorksData: Artwork[] = [
     price: 'POA',
     available: true,
     description: 'Elegant pears with rustic stoneware, bridging traditional and contemporary.',
-    imagePath: '/images/galleries/recent-works/stoneware-flagon-with-pears/e0127fdc-1a3d-48c2-8a3f-e2d6099d3831.jpg',
+    imagePath: '/images/paintings/recent-works/stoneware-flagon-with-pears/e0127fdc-1a3d-48c2-8a3f-e2d6099d3831.jpg',
     slug: 'stoneware-flagon-with-pears',
     tags: ['still life', 'pears', 'stoneware', 'rustic']
   },
@@ -351,7 +351,7 @@ export const recentWorksData: Artwork[] = [
     price: 'POA',
     available: true,
     description: 'Summer peaches nestled beside handcrafted stoneware.',
-    imagePath: '/images/galleries/recent-works/stoneware-jar-with-peaches/anne-songhurst-stoneware-jar-with-peaches-8x8-.jpg',
+    imagePath: '/images/paintings/recent-works/stoneware-jar-with-peaches/anne-songhurst-stoneware-jar-with-peaches-8x8-.jpg',
     slug: 'stoneware-jar-with-peaches',
     tags: ['still life', 'peaches', 'stoneware', 'summer']
   },
@@ -365,7 +365,7 @@ export const recentWorksData: Artwork[] = [
     price: 'POA',
     available: true,
     description: 'Crisp apples with an Arts and Crafts Tudric pewter tankard.',
-    imagePath: '/images/galleries/recent-works/tudric-tankard-with-apples/anne-songhurst-tudric-tankard-with-apples-12x12.jpg',
+    imagePath: '/images/paintings/recent-works/tudric-tankard-with-apples/anne-songhurst-tudric-tankard-with-apples-12x12.jpg',
     slug: 'tudric-tankard-with-apples',
     tags: ['still life', 'apples', 'tudric', 'pewter', 'arts and crafts']
   },
@@ -379,7 +379,7 @@ export const recentWorksData: Artwork[] = [
     price: 'POA',
     available: true,
     description: 'Fresh lemons paired with an elegant wine bottle in natural light.',
-    imagePath: '/images/galleries/recent-works/wine-bottle-with-lemons/anne-songhurst-wine-bottle-with-lemons-10x12-.jpg',
+    imagePath: '/images/paintings/recent-works/wine-bottle-with-lemons/anne-songhurst-wine-bottle-with-lemons-10x12-.jpg',
     slug: 'wine-bottle-with-lemons',
     tags: ['still life', 'lemons', 'wine bottle', 'natural light']
   }
@@ -397,7 +397,7 @@ export const trompeLoeilData: Artwork[] = [
     price: 'POA',
     available: true,
     description: 'A masterful trompe-l\'oeil cabinet filled with fascinating curiosities and collectibles.',
-    imagePath: '/images/galleries/trompe-loeil/cabinet-of-curios/cabinet-of-curios.jpg',
+    imagePath: '/images/paintings/trompe-loeil/cabinet-of-curios/cabinet-of-curios.jpg',
     slug: 'cabinet-of-curios',
     tags: ['trompe loeil', 'cabinet', 'curios', 'collectibles']
   },
@@ -411,7 +411,7 @@ export const trompeLoeilData: Artwork[] = [
     price: 'POA',
     available: true,
     description: 'A trompe-l\'oeil painting depicting a cabinet filled with treasured objects and memories.',
-    imagePath: '/images/galleries/trompe-loeil/cabinet-of-memories/anne-songhurst-cabinet-of-memories.jpg',
+    imagePath: '/images/paintings/trompe-loeil/cabinet-of-memories/anne-songhurst-cabinet-of-memories.jpg',
     slug: 'cabinet-of-memories',
     featured: true,
     tags: ['trompe loeil', 'cabinet', 'memories', 'objects']
@@ -426,7 +426,7 @@ export const trompeLoeilData: Artwork[] = [
     price: 'POA',
     available: true,
     description: 'Delicate miniature objects displayed in a trompe-l\'oeil cabinet setting.',
-    imagePath: '/images/galleries/trompe-loeil/cabinet-of-miniatures/anne-songhurst-cabinet-of-miniatures.jpg',
+    imagePath: '/images/paintings/trompe-loeil/cabinet-of-miniatures/anne-songhurst-cabinet-of-miniatures.jpg',
     slug: 'cabinet-of-miniatures',
     tags: ['trompe loeil', 'cabinet', 'miniatures', 'delicate']
   },
@@ -440,7 +440,7 @@ export const trompeLoeilData: Artwork[] = [
     price: 'POA',
     available: true,
     description: 'Fresh apples arranged in a trompe-l\'oeil cabinet shelf composition.',
-    imagePath: '/images/galleries/trompe-loeil/cabinet-with-apples/cabinet-with-apples-12x12.jpg',
+    imagePath: '/images/paintings/trompe-loeil/cabinet-with-apples/cabinet-with-apples-12x12.jpg',
     slug: 'cabinet-with-apples',
     tags: ['trompe loeil', 'cabinet', 'apples', 'fresh fruit']
   },
@@ -454,7 +454,7 @@ export const trompeLoeilData: Artwork[] = [
     price: 'POA',
     available: false,
     description: 'Beautiful Delft porcelain pieces displayed in a realistic cabinet setting.',
-    imagePath: '/images/galleries/trompe-loeil/cabinet-with-delftware/anne-songhurst-cabinet-with-delftware-12x10.jpg',
+    imagePath: '/images/paintings/trompe-loeil/cabinet-with-delftware/anne-songhurst-cabinet-with-delftware-12x10.jpg',
     slug: 'cabinet-with-delftware',
     tags: ['trompe loeil', 'cabinet', 'delftware', 'porcelain']
   },
@@ -468,7 +468,7 @@ export const trompeLoeilData: Artwork[] = [
     price: 'POA',
     available: true,
     description: 'Exquisite Chinese blue and white porcelain arranged in trompe-l\'oeil style.',
-    imagePath: '/images/galleries/trompe-loeil/chinese-blue-and-white/chinese-blue-and-white.jpg',
+    imagePath: '/images/paintings/trompe-loeil/chinese-blue-and-white/chinese-blue-and-white.jpg',
     slug: 'chinese-blue-and-white',
     tags: ['trompe loeil', 'chinese', 'blue and white', 'porcelain']
   },
@@ -482,7 +482,7 @@ export const trompeLoeilData: Artwork[] = [
     price: 'POA',
     available: true,
     description: 'A collection of fine Chinese porcelain pieces in realistic detail.',
-    imagePath: '/images/galleries/trompe-loeil/chinese-porcelain/chinese-porcelain.jpg',
+    imagePath: '/images/paintings/trompe-loeil/chinese-porcelain/chinese-porcelain.jpg',
     slug: 'chinese-porcelain',
     tags: ['trompe loeil', 'chinese', 'porcelain', 'collection']
   },
@@ -496,7 +496,7 @@ export const trompeLoeilData: Artwork[] = [
     price: 'POA',
     available: true,
     description: 'An extensive collection of Dutch Delftware displayed with museum-quality precision.',
-    imagePath: '/images/galleries/trompe-loeil/delftware-collection/delftware-collection.jpg',
+    imagePath: '/images/paintings/trompe-loeil/delftware-collection/delftware-collection.jpg',
     slug: 'delftware-collection',
     featured: true,
     tags: ['trompe loeil', 'delftware', 'dutch', 'collection']
@@ -511,7 +511,7 @@ export const trompeLoeilData: Artwork[] = [
     price: 'POA',
     available: true,
     description: 'A small but detailed trompe-l\'oeil study of an antique Ming jarlet.',
-    imagePath: '/images/galleries/trompe-loeil/ming-jarlet/anne-songhurst-ming-jarlet-5x5.jpg',
+    imagePath: '/images/paintings/trompe-loeil/ming-jarlet/anne-songhurst-ming-jarlet-5x5.jpg',
     slug: 'ming-jarlet',
     tags: ['trompe loeil', 'ming', 'porcelain', 'miniature']
   },
@@ -525,7 +525,7 @@ export const trompeLoeilData: Artwork[] = [
     price: 'POA',
     available: false,
     description: 'A comprehensive trompe-l\'oeil display of oriental ceramics and artifacts.',
-    imagePath: '/images/galleries/trompe-loeil/oriental-collection/anne-songhurst-oriental-collection.jpg',
+    imagePath: '/images/paintings/trompe-loeil/oriental-collection/anne-songhurst-oriental-collection.jpg',
     slug: 'oriental-collection',
     tags: ['trompe loeil', 'oriental', 'ceramics', 'collection']
   },
@@ -539,7 +539,7 @@ export const trompeLoeilData: Artwork[] = [
     price: 'POA',
     available: true,
     description: 'Classic Spode Italian pattern ceramics in trompe-l\'oeil style.',
-    imagePath: '/images/galleries/trompe-loeil/spode-italian/spode-italian-8x6.jpg',
+    imagePath: '/images/paintings/trompe-loeil/spode-italian/spode-italian-8x6.jpg',
     slug: 'spode-italian',
     tags: ['trompe loeil', 'spode', 'italian', 'ceramic']
   },
@@ -553,7 +553,7 @@ export const trompeLoeilData: Artwork[] = [
     price: 'POA',
     available: true,
     description: 'Traditional willow pattern jug and bowl in meticulous trompe-l\'oeil detail.',
-    imagePath: '/images/galleries/trompe-loeil/willow-jug-and-bowl/willow-jug-and-bowl-8x6.jpg',
+    imagePath: '/images/paintings/trompe-loeil/willow-jug-and-bowl/willow-jug-and-bowl-8x6.jpg',
     slug: 'willow-jug-and-bowl',
     tags: ['trompe loeil', 'willow pattern', 'jug', 'bowl']
   },
@@ -567,7 +567,7 @@ export const trompeLoeilData: Artwork[] = [
     price: 'POA',
     available: true,
     description: 'A personal trompe-l\'oeil tribute featuring cherished objects and memories.',
-    imagePath: '/images/galleries/trompe-loeil/wonkys-niche-in-my-memory/wonkys-niche-in-my-memory-10x10.jpg',
+    imagePath: '/images/paintings/trompe-loeil/wonkys-niche-in-my-memory/wonkys-niche-in-my-memory-10x10.jpg',
     slug: 'wonkys-niche-in-my-memory',
     featured: true,
     tags: ['trompe loeil', 'personal', 'memories', 'tribute']
@@ -586,7 +586,7 @@ export const archiveData: Artwork[] = [
     price: 'Sold',
     available: false,
     description: 'An early work featuring farm-fresh eggs in a traditional woven basket.',
-    imagePath: '/images/galleries/archive/basket-with-eggs/anne-songhurst-basket-with-eggs-10x12.jpg',
+    imagePath: '/images/paintings/archive/basket-with-eggs/anne-songhurst-basket-with-eggs-10x12.jpg',
     slug: 'basket-with-eggs-archive',
     tags: ['still life', 'eggs', 'basket', 'farm fresh']
   },
@@ -600,7 +600,7 @@ export const archiveData: Artwork[] = [
     price: 'Sold',
     available: false,
     description: 'Eggs displayed in a beautiful celadon ceramic bowl.',
-    imagePath: '/images/galleries/archive/celadon-bowl-with-eggs/anne-songhurst-celadon-bowl-with-eggs-10x10.jpg',
+    imagePath: '/images/paintings/archive/celadon-bowl-with-eggs/anne-songhurst-celadon-bowl-with-eggs-10x10.jpg',
     slug: 'celadon-bowl-with-eggs',
     tags: ['still life', 'eggs', 'celadon', 'ceramic']
   },
@@ -614,7 +614,7 @@ export const archiveData: Artwork[] = [
     price: 'Sold',
     available: false,
     description: 'A signature piece featuring pears with a traditional cider flagon from John Leach Pottery.',
-    imagePath: '/images/galleries/archive/cider-flagon-with-pears/anne-songhurst-cider-flagon-with-pears-14x18.jpg',
+    imagePath: '/images/paintings/archive/cider-flagon-with-pears/anne-songhurst-cider-flagon-with-pears-14x18.jpg',
     slug: 'cider-flagon-with-pears-archive',
     featured: true,
     tags: ['still life', 'pears', 'cider flagon', 'pottery']
@@ -629,7 +629,7 @@ export const archiveData: Artwork[] = [
     price: 'Sold',
     available: false,
     description: 'Sweet cherries arranged in an antique creamware basket.',
-    imagePath: '/images/galleries/archive/creamware-basket-with-cherries/anne-songhurst-creamware-basket-with-cherries-10x10.jpg',
+    imagePath: '/images/paintings/archive/creamware-basket-with-cherries/anne-songhurst-creamware-basket-with-cherries-10x10.jpg',
     slug: 'creamware-basket-with-cherries',
     tags: ['still life', 'cherries', 'creamware', 'basket']
   },
@@ -643,7 +643,7 @@ export const archiveData: Artwork[] = [
     price: 'Sold',
     available: false,
     description: 'A celebration of farm life with fresh eggs in natural setting.',
-    imagePath: '/images/galleries/archive/free-range/anne-songhurst-free-range-12x12.jpg',
+    imagePath: '/images/paintings/archive/free-range/anne-songhurst-free-range-12x12.jpg',
     slug: 'free-range',
     featured: true,
     tags: ['still life', 'eggs', 'farm life', 'natural']
@@ -658,7 +658,7 @@ export const archiveData: Artwork[] = [
     price: 'Sold',
     available: false,
     description: 'Delicate snowdrops in a clear glass jug, capturing early spring.',
-    imagePath: '/images/galleries/archive/glass-jug-with-snowdrops/anne-songhurst-glass-jug-with-snowdrops-8x8.jpg',
+    imagePath: '/images/paintings/archive/glass-jug-with-snowdrops/anne-songhurst-glass-jug-with-snowdrops-8x8.jpg',
     slug: 'glass-jug-with-snowdrops',
     tags: ['still life', 'snowdrops', 'glass', 'spring']
   },
@@ -672,7 +672,7 @@ export const archiveData: Artwork[] = [
     price: 'Sold',
     available: false,
     description: 'Purple plums with traditional German Westerwald stoneware jug.',
-    imagePath: '/images/galleries/archive/westerwald-jug-with-plums/anne-songhurst-westerwald-jug-with-plums-12x16.jpg',
+    imagePath: '/images/paintings/archive/westerwald-jug-with-plums/anne-songhurst-westerwald-jug-with-plums-12x16.jpg',
     slug: 'westerwald-jug-with-plums',
     tags: ['still life', 'plums', 'westerwald', 'stoneware']
   }
@@ -690,7 +690,7 @@ export const offTheEaselData: Artwork[] = [
     price: 'POA',
     available: true,
     description: 'Fresh eggs from Brockalee Farm, painted directly from life.',
-    imagePath: '/images/galleries/off-the-easel/brockalee-farm-eggs/4fe5e26d-ccc9-403e-9304-4ffd06e65c5b.jpg',
+    imagePath: '/images/paintings/off-the-easel/brockalee-farm-eggs/4fe5e26d-ccc9-403e-9304-4ffd06e65c5b.jpg',
     slug: 'brockalee-farm-eggs',
     featured: true,
     tags: ['still life', 'eggs', 'farm fresh', 'contemporary']
@@ -705,7 +705,7 @@ export const offTheEaselData: Artwork[] = [
     price: 'POA',
     available: true,
     description: 'Ripe apricots displayed with antique Chinese porcelain.',
-    imagePath: '/images/galleries/off-the-easel/chinese-porcelain-with-apricots/fbec482e-e806-458e-a4b6-3b8ed52ed4af.jpg',
+    imagePath: '/images/paintings/off-the-easel/chinese-porcelain-with-apricots/fbec482e-e806-458e-a4b6-3b8ed52ed4af.jpg',
     slug: 'chinese-porcelain-with-apricots',
     tags: ['still life', 'apricots', 'chinese porcelain', 'fruit']
   },
@@ -719,7 +719,7 @@ export const offTheEaselData: Artwork[] = [
     price: 'POA',
     available: true,
     description: 'Bright lemons with classic blue and white Cornishware pottery.',
-    imagePath: '/images/galleries/off-the-easel/cornishware-pot-with-lemons/aca461fb-c56a-4648-8369-78028deeb4ad.jpg',
+    imagePath: '/images/paintings/off-the-easel/cornishware-pot-with-lemons/aca461fb-c56a-4648-8369-78028deeb4ad.jpg',
     slug: 'cornishware-pot-with-lemons',
     tags: ['still life', 'lemons', 'cornishware', 'pottery']
   },
@@ -733,7 +733,7 @@ export const offTheEaselData: Artwork[] = [
     price: 'POA',
     available: true,
     description: 'Farm fresh eggs nestled in a handcrafted Harrison pottery bowl.',
-    imagePath: '/images/galleries/off-the-easel/harrison-bowl-with-eggs/1df2b51b-da4a-4423-a198-4446d9595661.jpg',
+    imagePath: '/images/paintings/off-the-easel/harrison-bowl-with-eggs/1df2b51b-da4a-4423-a198-4446d9595661.jpg',
     slug: 'harrison-bowl-with-eggs',
     tags: ['still life', 'eggs', 'harrison pottery', 'handcrafted']
   },
@@ -747,7 +747,7 @@ export const offTheEaselData: Artwork[] = [
     price: 'POA',
     available: true,
     description: 'Fresh summer strawberries gleaming in a polished silver bowl.',
-    imagePath: '/images/galleries/off-the-easel/strawberries-in-a-silver-bowl/c306261e-06db-4136-9a59-c83c975fbbb5.jpg',
+    imagePath: '/images/paintings/off-the-easel/strawberries-in-a-silver-bowl/c306261e-06db-4136-9a59-c83c975fbbb5.jpg',
     slug: 'strawberries-in-silver-bowl',
     featured: true,
     tags: ['still life', 'strawberries', 'silver', 'summer']

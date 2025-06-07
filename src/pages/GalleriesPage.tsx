@@ -8,28 +8,28 @@ const galleryCards = [
     description: 'Fresh works recently completed in the studio',
     href: '/galleries/off-the-easel',
     artworks: offTheEaselData,
-    coverImage: '/images/galleries/off-the-easel/chinese-porcelain-with-apricots/fbec482e-e806-458e-a4b6-3b8ed52ed4af.jpg'
+    coverImage: '/images/paintings/off-the-easel/chinese-porcelain-with-apricots/fbec482e-e806-458e-a4b6-3b8ed52ed4af.jpg'
   },
   {
     title: 'Recent Works',
     description: 'Latest paintings showcasing contemporary still life compositions',
     href: '/galleries/recent-works',
     artworks: recentWorksData,
-    coverImage: '/images/galleries/recent-works/basket-with-lemons/anne-songhurst--basket_with_lemons_10x10.jpg'
+    coverImage: '/images/paintings/recent-works/basket-with-lemons/anne-songhurst--basket_with_lemons_10x10.jpg'
   },
   {
     title: 'Trompe L\'Oeil',
     description: 'Masterful trompe-l\'oeil paintings that deceive the eye',
     href: '/galleries/trompe-loeil',
     artworks: trompeLoeilData,
-    coverImage: '/images/galleries/trompe-loeil/cabinet-of-memories/anne-songhurst-cabinet-of-memories.jpg'
+    coverImage: '/images/paintings/trompe-loeil/cabinet-of-memories/anne-songhurst-cabinet-of-memories.jpg'
   },
   {
     title: 'Archive',
     description: 'Historical collection of Anne\'s earlier masterpieces',
     href: '/galleries/archive',
     artworks: archiveData,
-    coverImage: '/images/galleries/archive/cider-flagon-with-pears/anne-songhurst-cider-flagon-with-pears-14x18.jpg'
+    coverImage: '/images/paintings/archive/cider-flagon-with-pears/anne-songhurst-cider-flagon-with-pears-14x18.jpg'
   }
 ];
 
