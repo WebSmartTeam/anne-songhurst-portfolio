@@ -7,7 +7,8 @@ const galleries = [
     description: 'Contemporary British and Irish art in the heart of the Cotswolds',
     relationship: 'Artist since 2007',
     details: 'Open daily (except Thursdays)',
-    website: 'www.wrenfineart.co.uk'
+    website: 'www.wrenfineart.co.uk',
+    image: '/images/galleries/wren-gallery.jpg'
   },
   {
     name: 'Norton Way Gallery',
@@ -15,7 +16,8 @@ const galleries = [
     description: 'Original works of art - oils, watercolours, drawings, mixed media',
     relationship: 'Artist since 2007',
     details: 'Established gallery with diverse collection',
-    website: 'nortonwaygallery.com'
+    website: 'nortonwaygallery.com',
+    image: '/images/galleries/norton-way-gallery.jpg'
   },
   {
     name: 'The Marylebone Gallery',
@@ -59,9 +61,20 @@ export default function GalleryLocationsPage() {
                 transition={{ duration: 0.6, delay: index * 0.1 }}
                 className="bg-white rounded-lg shadow-lg overflow-hidden"
               >
-                <div className="grid grid-cols-1 gap-0">
+                <div className={`grid grid-cols-1 ${gallery.image ? 'lg:grid-cols-3' : ''} gap-0`}>
+                  {/* Gallery Image */}
+                  {gallery.image && (
+                    <div className="lg:col-span-1">
+                      <img
+                        src={gallery.image}
+                        alt={`${gallery.name} exterior`}
+                        className="w-full h-64 lg:h-full object-cover"
+                      />
+                    </div>
+                  )}
+                  
                   {/* Gallery Info */}
-                  <div className="p-8">
+                  <div className={`${gallery.image ? 'lg:col-span-2' : ''} p-8`}>
                     <div className="flex flex-col lg:flex-row lg:items-start lg:justify-between mb-6">
                       <div className="flex-1">
                         <h2 className="text-3xl font-display text-primary-dark mb-2">
