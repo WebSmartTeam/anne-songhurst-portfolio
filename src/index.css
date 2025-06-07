@@ -1,0 +1,117 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    font-family: 'Source Sans Pro', 'Helvetica Neue', sans-serif;
+    line-height: 1.6;
+    color: #333333;
+    background-color: #F8F6F0;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Playfair Display', 'Times New Roman', serif;
+    font-weight: 500;
+    line-height: 1.3;
+  }
+  
+  .artwork-title {
+    font-family: 'Crimson Text', 'Georgia', serif;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply bg-accent-gold hover:bg-accent-brown text-white px-6 py-3 rounded-sm transition-colors duration-300 font-medium;
+  }
+  
+  .btn-secondary {
+    @apply border border-accent-gold text-accent-gold hover:bg-accent-gold hover:text-white px-6 py-3 rounded-sm transition-all duration-300 font-medium;
+  }
+  
+  .gallery-card {
+    @apply bg-white rounded-lg shadow-md overflow-hidden hover:shadow-xl transition-shadow duration-300;
+  }
+  
+  .gallery-card:hover img {
+    @apply scale-105;
+  }
+  
+  .gallery-image {
+    @apply w-full h-auto object-cover transition-transform duration-500;
+  }
+  
+  .section-container {
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+  }
+  
+  .page-header {
+    @apply text-4xl md:text-5xl lg:text-6xl font-display text-primary-dark mb-8 text-center;
+  }
+  
+  .text-shadow {
+    text-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+  
+  .aspect-square {
+    aspect-ratio: 1 / 1;
+  }
+  
+  .aspect-4-3 {
+    aspect-ratio: 4 / 3;
+  }
+  
+  .aspect-3-4 {
+    aspect-ratio: 3 / 4;
+  }
+  
+  .backdrop-blur-light {
+    backdrop-filter: blur(8px);
+    background-color: rgba(255, 255, 255, 0.8);
+  }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #B8860B;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #8B4513;
+}
+
+/* Image loading placeholder */
+.image-loading {
+  background: linear-gradient(90deg, #f0f0f0 25%, #e0e0e0 50%, #f0f0f0 75%);
+  background-size: 200% 100%;
+  animation: loading 1.5s infinite;
+}
+
+@keyframes loading {
+  0% {
+    background-position: 200% 0;
+  }
+  100% {
+    background-position: -200% 0;
+  }
+}
