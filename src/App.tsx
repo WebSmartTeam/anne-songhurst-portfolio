@@ -2,6 +2,7 @@ import { Routes, Route } from 'react-router-dom';
 import { Layout } from './components/Layout';
 import HomePage from './pages/HomePage';
 import GalleriesPage from './pages/GalleriesPage';
+import GalleryLocationsPage from './pages/GalleryLocationsPage';
 import AboutPage from './pages/AboutPage';
 import NewsPage from './pages/NewsPage';
 import ContactPage from './pages/ContactPage';
@@ -95,6 +96,7 @@ function App() {
 
         {/* Other pages */}
         <Route path="/about" element={<AboutPage />} />
+        <Route path="/gallery-locations" element={<GalleryLocationsPage />} />
         <Route path="/exhibitions" element={<ExhibitionsPage />} />
         <Route path="/news" element={<NewsPage />} />
         <Route path="/contact" element={<ContactPage />} />

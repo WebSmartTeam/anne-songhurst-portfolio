@@ -6,18 +6,19 @@ import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline';
 const navigation = [
   { name: 'Home', href: '/' },
   { 
-    name: 'Galleries', 
+    name: 'Paintings', 
     href: '/galleries',
     submenu: [
+      { name: 'Off the Easel', href: '/galleries/off-the-easel' },
       { name: 'Recent Works', href: '/galleries/recent-works' },
       { name: 'Trompe L\'Oeil', href: '/galleries/trompe-loeil' },
-      { name: 'Archive', href: '/galleries/archive' },
-      { name: 'Available Works', href: '/galleries/available' }
+      { name: 'Archive', href: '/galleries/archive' }
     ]
   },
   { name: 'About', href: '/about' },
-  { name: 'Exhibitions', href: '/exhibitions' },
+  { name: 'Galleries', href: '/gallery-locations' },
   { name: 'News', href: '/news' },
+  { name: 'Exhibitions', href: '/exhibitions' },
   { name: 'Contact', href: '/contact' },
 ];
 

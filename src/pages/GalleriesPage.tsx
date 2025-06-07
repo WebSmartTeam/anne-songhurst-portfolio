@@ -4,6 +4,13 @@ import { recentWorksData, trompeLoeilData, archiveData, offTheEaselData } from '
 
 const galleryCards = [
   {
+    title: 'Off the Easel',
+    description: 'Fresh works recently completed in the studio',
+    href: '/galleries/off-the-easel',
+    artworks: offTheEaselData,
+    coverImage: '/images/galleries/off-the-easel/chinese-porcelain-with-apricots/fbec482e-e806-458e-a4b6-3b8ed52ed4af.jpg'
+  },
+  {
     title: 'Recent Works',
     description: 'Latest paintings showcasing contemporary still life compositions',
     href: '/galleries/recent-works',
@@ -23,13 +30,6 @@ const galleryCards = [
     href: '/galleries/archive',
     artworks: archiveData,
     coverImage: '/images/galleries/archive/cider-flagon-with-pears/anne-songhurst-cider-flagon-with-pears-14x18.jpg'
-  },
-  {
-    title: 'Off the Easel',
-    description: 'Fresh works recently completed in the studio',
-    href: '/galleries/off-the-easel',
-    artworks: offTheEaselData,
-    coverImage: '/images/galleries/off-the-easel/chinese-porcelain-with-apricots/fbec482e-e806-458e-a4b6-3b8ed52ed4af.jpg'
   }
 ];
 
@@ -44,7 +44,7 @@ export default function GalleriesPage() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6 }}
           >
-            <h1 className="page-header">Galleries</h1>
+            <h1 className="page-header">Paintings</h1>
             <p className="text-lg text-text-light max-w-3xl mx-auto leading-relaxed">
               Explore Anne Songhurst's complete collection of oil paintings, 
               from her latest contemporary works to masterful trompe-l'oeil pieces 
