@@ -3,31 +3,17 @@ import { motion } from 'framer-motion';
 const newsItems = [
   {
     id: 1,
-    date: '2025-04-01',
-    title: 'Upcoming Exhibition: Spring Collection 2025',
-    excerpt: 'Anne will showcase her latest works inspired by spring\'s arrival at Wren Gallery, Burford.',
+    date: '2019-11-16',
+    title: 'Norton Way Gallery Autumn Show 2019',
+    excerpt: 'Anne\'s painting "Pewter Tankard with Peaches" featured in the Norton Way Gallery Autumn Show.',
     image: '/images/news/news-image-1.jpg',
-    content: `Anne Songhurst is preparing for her next solo exhibition at Wren Gallery in Burford, Oxfordshire, scheduled for April-May 2025. The exhibition will feature her latest works inspired by spring's arrival, including new paintings of early flowers, seasonal fruits, and the interplay of natural and artificial light in her compositions.
+    content: `Anne Songhurst's painting "Pewter Tankard with Peaches" is featured in the Norton Way Gallery Autumn Show 2019.
 
-This collection represents Anne's continued exploration of Dutch Master techniques applied to contemporary subjects. Visitors can expect to see her signature attention to detail and masterful use of light and shadow in pieces that capture the freshness and renewal of spring.
+The opening weekend took place on 16th/17th November at Norton Way Gallery, 51 Norton Way, Letchworth Garden City, Herts, SG6 1BH.
 
-The exhibition will run from 1st April to 31st May 2025 at Wren Gallery, a prestigious venue in the heart of the Cotswolds that specialises in contemporary British artists working in traditional mediums.
+This exhibition showcases Anne's continued exploration of still life painting, featuring her characteristic attention to detail and mastery of light and shadow. The pewter tankard piece demonstrates her skill in capturing the reflective qualities of metal alongside the soft textures of seasonal fruit.
 
-For more information about viewing times and private viewings, please contact Wren Gallery directly or get in touch with Anne through her website.`
-  },
-  {
-    id: 2,
-    date: '2024-11-10',
-    title: 'Saatchi Online Recognition',
-    excerpt: 'Anne\'s work was featured in Saatchi Online Magazine, praised by critic Ana Finel Honigman.',
-    image: '/images/news/news-image-2.jpg',
-    content: `Anne Songhurst's distinctive approach to still life painting has received recognition in Saatchi Online Magazine. Art critic Ana Finel Honigman praised Anne as a "self-taught artist" whose work has "benefited from being untouched by art school training."
-
-The feature highlighted Anne's unique journey from watercolour bird paintings to her current focus on oil still life works inspired by Dutch and Flemish Masters. The article explored how her self-taught background has allowed her to develop a distinctive voice within the classical tradition.
-
-Anne's philosophy of "paint what you love" was central to the piece, showcasing her particular fascination with antique objects that have survived centuries. Her practice of collecting vessels from antique shops, charity shops, online auctions, and market stalls provides the foundation for her carefully composed still life arrangements.
-
-The recognition from Saatchi Online has helped introduce Anne's work to a broader international audience of collectors and art enthusiasts who appreciate her contemporary approach to traditional techniques.`
+Norton Way Gallery continues to be an important venue for Anne's work, providing a platform to display her contemporary approach to traditional still life painting techniques.`
   }
 ];
 

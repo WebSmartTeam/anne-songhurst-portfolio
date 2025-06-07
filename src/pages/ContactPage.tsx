@@ -266,15 +266,11 @@ ${data.email}
                 <div className="space-y-3">
                   <div>
                     <h4 className="font-semibold text-primary-dark">Wren Gallery</h4>
-                    <p className="text-sm text-text-light">Burford, Oxfordshire</p>
+                    <p className="text-sm text-text-light">Burford</p>
                   </div>
                   <div>
                     <h4 className="font-semibold text-primary-dark">Norton Way Gallery</h4>
-                    <p className="text-sm text-text-light">Letchworth, Hertfordshire</p>
-                  </div>
-                  <div>
-                    <h4 className="font-semibold text-primary-dark">The Marylebone Gallery</h4>
-                    <p className="text-sm text-text-light">London</p>
+                    <p className="text-sm text-text-light">Letchworth Garden City</p>
                   </div>
                 </div>
               </div>

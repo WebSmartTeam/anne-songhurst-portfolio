@@ -3,29 +3,21 @@ import { motion } from 'framer-motion';
 const galleries = [
   {
     name: 'Wren Gallery',
-    location: 'Burford, Oxfordshire',
-    description: 'Contemporary British and Irish art in the heart of the Cotswolds',
-    relationship: 'Artist since 2007',
+    location: 'Burford',
+    description: 'Situated in the High Street of the Cotswold town of Burford, Wren Gallery has been established for over twenty years specialising in contemporary British and Irish art.',
+    relationship: 'Anne Songhurst has been a gallery artist since 2007',
     details: 'Open daily (except Thursdays)',
     website: 'www.wrenfineart.co.uk',
     image: '/images/galleries/wren-gallery.jpg'
   },
   {
     name: 'Norton Way Gallery',
-    location: 'Letchworth, Hertfordshire',
-    description: 'Original works of art - oils, watercolours, drawings, mixed media',
-    relationship: 'Artist since 2007',
-    details: 'Established gallery with diverse collection',
+    location: 'Letchworth Garden City',
+    description: 'This real gem of a gallery is situated in the rural arts and crafts town of Letchworth Garden City and is devoted to original works of art - oils, watercolours, drawings, mixed media pieces.',
+    relationship: 'Anne Songhurst has been a gallery artist since 2007',
+    details: 'A gallery devoted to original works of art',
     website: 'nortonwaygallery.com',
     image: '/images/galleries/norton-way-gallery.jpg'
-  },
-  {
-    name: 'The Marylebone Gallery',
-    location: 'London',
-    description: 'Fine contemporary art in the heart of London',
-    relationship: 'Artist since 2010',
-    details: 'Prestigious London location with international clientele',
-    website: 'www.marylebonenewgallery.com'
   }
 ];
 
