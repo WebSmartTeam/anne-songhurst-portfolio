@@ -32,7 +32,7 @@ export default function Header() {
   };
 
   return (
-    <header className="bg-primary-dark/95 backdrop-blur-light shadow-lg sticky top-0 z-50">
+    <header className="bg-primary-dark shadow-lg sticky top-0 z-50">
       <nav className="section-container">
         <div className="flex justify-between items-center py-4">
           {/* Logo */}
