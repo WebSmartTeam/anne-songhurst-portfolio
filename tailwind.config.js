@@ -7,30 +7,35 @@ export default {
   theme: {
     extend: {
       colors: {
-        // Dutch Masters inspired palette
+        // Modern elegant palette inspired by galleries
         primary: {
-          dark: '#2C2B28',
-          light: '#FAF7F2',
+          dark: '#1A1B23',
+          medium: '#2D2E36',
+          light: '#F5F3F0',
         },
         accent: {
-          gold: '#B8860B',
-          brown: '#8B4513',
-          burgundy: '#722F37',
+          gold: '#D4AF37',
+          copper: '#B87333',
+          burgundy: '#800020',
           bronze: '#CD7F32',
         },
         neutral: {
-          cream: '#F9F6F1',
-          warm: '#F2EFE8',
-          sand: '#E8E4DB',
-          stone: '#D4CFC4',
+          cream: '#F8F6F2',
+          warm: '#F0ECE8',
+          sand: '#E6E0D8',
+          stone: '#D8D2C8',
+          charcoal: '#36454F',
         },
         text: {
-          dark: '#333333',
-          light: '#5A5A5A',
+          dark: '#2C2C2C',
+          light: '#666666',
+          muted: '#999999',
         },
         background: {
-          gallery: '#F7F4EF',
-          section: '#F4F1EC',
+          main: '#FDFCFA',
+          gallery: '#F6F4F1',
+          section: '#F2F0ED',
+          card: '#FFFFFF',
         }
       },
       fontFamily: {

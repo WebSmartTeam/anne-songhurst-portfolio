@@ -5,23 +5,13 @@ import GalleriesPage from './pages/GalleriesPage';
 import AboutPage from './pages/AboutPage';
 import NewsPage from './pages/NewsPage';
 import ContactPage from './pages/ContactPage';
+import ExhibitionsPage from './pages/ExhibitionsPage';
 import { GalleryGrid } from './components/Gallery';
 import { recentWorksData, trompeLoeilData, archiveData, offTheEaselData, availableArtworks } from './utils/artworkData';
 
 // Simple placeholder components for routes not yet implemented
 
 
-const ExhibitionsPage = () => (
-  <div className="min-h-screen bg-primary-light py-20">
-    <div className="section-container text-center">
-      <h1 className="page-header">Exhibitions</h1>
-      <p className="text-lg text-text-light max-w-3xl mx-auto">
-        Exhibition information coming soon. Anne's work is currently represented at Wren Gallery (Burford), 
-        Norton Way Gallery (Letchworth), and The Marylebone Gallery (London).
-      </p>
-    </div>
-  </div>
-);
 
 
 function App() {

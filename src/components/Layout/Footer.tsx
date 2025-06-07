@@ -10,16 +10,12 @@ export default function Footer() {
           
           {/* Artist Info */}
           <div className="col-span-1 md:col-span-2 lg:col-span-1">
-            <div className="flex items-center space-x-3 mb-4">
+            <div className="mb-4">
               <img
                 src="/images/homepage/logo/logo-annesonghurst2.png"
                 alt="Anne Songhurst"
-                className="h-12 w-auto brightness-200"
+                className="h-16 w-auto brightness-200 mb-4"
               />
-              <div>
-                <h3 className="text-xl font-display text-accent-gold">Anne Songhurst</h3>
-                <p className="text-sm text-gray-300">Contemporary Oil Painter</p>
-              </div>
             </div>
             <p className="text-gray-300 text-sm leading-relaxed">
               Self-taught artist inspired by Dutch Masters, creating contemporary oil still life paintings 
@@ -108,13 +104,10 @@ export default function Footer() {
           <p className="text-gray-400 text-sm">
             © {currentYear} Anne Songhurst. All rights reserved.
           </p>
-          <div className="mt-4 md:mt-0 flex space-x-6">
-            <Link to="/privacy" className="text-gray-400 hover:text-accent-gold text-sm transition-colors duration-200">
-              Privacy Policy
-            </Link>
-            <Link to="/terms" className="text-gray-400 hover:text-accent-gold text-sm transition-colors duration-200">
-              Terms of Use
-            </Link>
+          <div className="mt-4 md:mt-0">
+            <p className="text-gray-400 text-sm">
+              Website design © 2024. All artwork © Anne Songhurst.
+            </p>
           </div>
         </div>
       </div>

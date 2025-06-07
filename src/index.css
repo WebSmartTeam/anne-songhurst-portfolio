@@ -27,7 +27,7 @@
 
 @layer components {
   .btn-primary {
-    @apply bg-accent-gold hover:bg-accent-brown text-white px-6 py-3 rounded-sm transition-colors duration-300 font-medium;
+    @apply bg-accent-gold hover:bg-accent-copper text-white px-6 py-3 rounded-sm transition-colors duration-300 font-medium;
   }
   
   .btn-secondary {

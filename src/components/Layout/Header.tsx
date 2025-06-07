@@ -32,20 +32,16 @@ export default function Header() {
   };
 
   return (
-    <header className="bg-white/95 backdrop-blur-light shadow-sm sticky top-0 z-50">
+    <header className="bg-primary-dark/95 backdrop-blur-light shadow-lg sticky top-0 z-50">
       <nav className="section-container">
         <div className="flex justify-between items-center py-4">
           {/* Logo */}
-          <Link to="/" className="flex items-center space-x-3">
+          <Link to="/" className="flex items-center">
             <img
               src="/images/homepage/logo/logo-annesonghurst2.png"
               alt="Anne Songhurst"
-              className="h-12 w-auto"
+              className="h-14 w-auto"
             />
-            <div className="hidden md:block">
-              <h1 className="text-xl font-display text-primary-dark">Anne Songhurst</h1>
-              <p className="text-sm text-text-light">Contemporary Oil Painter</p>
-            </div>
           </Link>
 
           {/* Desktop Navigation */}
@@ -58,7 +54,7 @@ export default function Header() {
                       className={`text-base font-medium transition-colors duration-200 px-3 py-2 rounded-sm ${
                         isActive(item.href)
                           ? 'text-accent-gold border-b-2 border-accent-gold'
-                          : 'text-text-dark hover:text-accent-gold'
+                          : 'text-white hover:text-accent-gold'
                       }`}
                       onMouseEnter={() => setGalleryMenuOpen(true)}
                       onMouseLeave={() => setGalleryMenuOpen(false)}
@@ -95,7 +91,7 @@ export default function Header() {
                     className={`text-base font-medium transition-colors duration-200 px-3 py-2 rounded-sm ${
                       isActive(item.href)
                         ? 'text-accent-gold border-b-2 border-accent-gold'
-                        : 'text-text-dark hover:text-accent-gold'
+                        : 'text-white hover:text-accent-gold'
                     }`}
                   >
                     {item.name}
@@ -107,7 +103,7 @@ export default function Header() {
 
           {/* Mobile menu button */}
           <button
-            className="lg:hidden p-2 rounded-md text-text-dark hover:text-accent-gold"
+            className="lg:hidden p-2 rounded-md text-white hover:text-accent-gold"
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
           >
             {mobileMenuOpen ? (
@@ -126,7 +122,7 @@ export default function Header() {
               animate={{ opacity: 1, height: 'auto' }}
               exit={{ opacity: 0, height: 0 }}
               transition={{ duration: 0.3 }}
-              className="lg:hidden border-t border-gray-200 py-4"
+              className="lg:hidden border-t border-white/20 py-4"
             >
               <div className="space-y-2">
                 {navigation.map((item) => (
@@ -137,8 +133,8 @@ export default function Header() {
                           to={item.href}
                           className={`block px-3 py-2 text-base font-medium rounded-md transition-colors duration-200 ${
                             isActive(item.href)
-                              ? 'text-accent-gold bg-neutral-cream'
-                              : 'text-text-dark hover:text-accent-gold hover:bg-neutral-cream'
+                              ? 'text-accent-gold bg-white/10'
+                              : 'text-white hover:text-accent-gold hover:bg-white/10'
                           }`}
                           onClick={() => setMobileMenuOpen(false)}
                         >
@@ -149,7 +145,7 @@ export default function Header() {
                             <Link
                               key={subItem.name}
                               to={subItem.href}
-                              className="block px-3 py-1 text-sm text-text-light hover:text-accent-gold transition-colors duration-200"
+                              className="block px-3 py-1 text-sm text-white/70 hover:text-accent-gold transition-colors duration-200"
                               onClick={() => setMobileMenuOpen(false)}
                             >
                               {subItem.name}
@@ -162,8 +158,8 @@ export default function Header() {
                         to={item.href}
                         className={`block px-3 py-2 text-base font-medium rounded-md transition-colors duration-200 ${
                           isActive(item.href)
-                            ? 'text-accent-gold bg-neutral-cream'
-                            : 'text-text-dark hover:text-accent-gold hover:bg-neutral-cream'
+                            ? 'text-accent-gold bg-white/10'
+                            : 'text-white hover:text-accent-gold hover:bg-white/10'
                         }`}
                         onClick={() => setMobileMenuOpen(false)}
                       >
