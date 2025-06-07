@@ -5,7 +5,6 @@ import {
   XMarkIcon, 
   ChevronLeftIcon, 
   ChevronRightIcon,
-  EnvelopeIcon,
   HeartIcon
 } from '@heroicons/react/24/outline';
 import { HeartIcon as HeartSolidIcon } from '@heroicons/react/24/solid';
@@ -78,13 +77,6 @@ export default function ArtworkModal({
     }
   };
 
-  const handleEnquiry = () => {
-    if (artwork) {
-      const subject = `Enquiry about "${artwork.title}"`;
-      const body = `Hello Anne,\n\nI am interested in learning more about your painting "${artwork.title}" (${artwork.dimensions}).\n\nPlease could you provide more information?\n\nThank you,`;
-      window.location.href = `mailto:anne.songhurst@ntlworld.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
-    }
-  };
 
   if (!artwork) return null;
 
