@@ -56,7 +56,7 @@ ${data.email}
       </section>
 
       {/* Main Content */}
-      <section className="py-12">
+      <section className="py-8">
         <div className="section-container">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
             

@@ -5,16 +5,16 @@ export default function Footer() {
 
   return (
     <footer className="bg-primary-dark text-white mt-20">
-      <div className="section-container py-12">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+      <div className="section-container py-8 lg:py-12">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 lg:gap-8">
           
           {/* Artist Info */}
-          <div className="col-span-1 md:col-span-2 lg:col-span-1">
+          <div className="col-span-1 sm:col-span-2 lg:col-span-1">
             <div className="mb-4">
               <img
                 src="/images/homepage/logo/logo-annesonghurst2.png"
                 alt="Anne Songhurst"
-                className="h-16 w-auto brightness-200 mb-4"
+                className="h-12 lg:h-16 w-auto brightness-200 mb-4"
               />
             </div>
             <p className="text-gray-300 text-sm leading-relaxed">
@@ -100,11 +100,11 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="border-t border-gray-600 mt-8 pt-8 flex flex-col md:flex-row justify-between items-center">
+        <div className="border-t border-gray-600 mt-6 lg:mt-8 pt-6 lg:pt-8 flex flex-col sm:flex-row justify-between items-center">
           <p className="text-gray-400 text-sm">
             © {currentYear} Anne Songhurst. All rights reserved.
           </p>
-          <div className="mt-4 md:mt-0">
+          <div className="mt-3 sm:mt-0">
             <p className="text-gray-400 text-sm">
               All artwork © Anne Songhurst.
             </p>

@@ -3,33 +3,31 @@ import { motion } from 'framer-motion';
 const newsItems = [
   {
     id: 1,
-    date: '2024-06-01',
-    title: 'New Studio Works Complete',
-    excerpt: 'Anne has completed a new series of still life paintings featuring seasonal fruits and antique ceramics.',
+    date: '2025-04-01',
+    title: 'Upcoming Exhibition: Spring Collection 2025',
+    excerpt: 'Anne will showcase her latest works inspired by spring\'s arrival at Wren Gallery, Burford.',
     image: '/images/news/news-image-1.jpg',
-    content: `Anne Songhurst has recently completed a stunning new series of still life paintings in her Hertfordshire studio. This latest collection showcases her continued mastery of Dutch Master techniques, featuring an array of seasonal fruits paired with her collection of antique ceramics and glassware.
+    content: `Anne Songhurst is preparing for her next solo exhibition at Wren Gallery in Burford, Oxfordshire, scheduled for April-May 2025. The exhibition will feature her latest works inspired by spring's arrival, including new paintings of early flowers, seasonal fruits, and the interplay of natural and artificial light in her compositions.
 
-The new works demonstrate Anne's evolving artistic vision while maintaining her signature attention to detail and masterful use of light and shadow. Each painting captures the subtle textures and natural beauty of everyday objects, transformed through her unique perspective.
+This collection represents Anne's continued exploration of Dutch Master techniques applied to contemporary subjects. Visitors can expect to see her signature attention to detail and masterful use of light and shadow in pieces that capture the freshness and renewal of spring.
 
-"I find endless inspiration in the simple beauty of a perfectly ripe pear or the way light catches the surface of an old ceramic bowl," Anne explains. "Each object tells a story, and I try to capture that narrative in my paintings."
+The exhibition will run from 1st April to 31st May 2025 at Wren Gallery, a prestigious venue in the heart of the Cotswolds that specialises in contemporary British artists working in traditional mediums.
 
-These new works will be available through her gallery partners and directly from the artist. Several pieces are already generating interest from collectors who appreciate Anne's distinctive approach to contemporary still life painting.`
+For more information about viewing times and private viewings, please contact Wren Gallery directly or get in touch with Anne through her website.`
   },
   {
     id: 2,
-    date: '2024-05-15',
-    title: 'Featured in Contemporary Art Review',
-    excerpt: 'Anne\'s latest trompe-l\'oeil works have been featured in a major contemporary art publication.',
+    date: '2024-11-10',
+    title: 'Saatchi Online Recognition',
+    excerpt: 'Anne\'s work was featured in Saatchi Online Magazine, praised by critic Ana Finel Honigman.',
     image: '/images/news/news-image-2.jpg',
-    content: `Anne Songhurst's innovative trompe-l'oeil paintings have been featured in the latest issue of Contemporary Art Review, highlighting her unique contribution to the revival of classical still life techniques in modern art.
+    content: `Anne Songhurst's distinctive approach to still life painting has received recognition in Saatchi Online Magazine. Art critic Ana Finel Honigman praised Anne as a "self-taught artist" whose work has "benefited from being untouched by art school training."
 
-The article, titled "Deception and Beauty: The Art of Trompe-L'Oeil in the 21st Century," showcases Anne's cabinet paintings alongside works by other contemporary masters of the technique. Art critic Sarah Matthews writes: "Songhurst's work stands out for its emotional depth and technical precision. Her cabinet of memories series, in particular, demonstrates how traditional techniques can convey deeply personal narratives."
+The feature highlighted Anne's unique journey from watercolour bird paintings to her current focus on oil still life works inspired by Dutch and Flemish Masters. The article explored how her self-taught background has allowed her to develop a distinctive voice within the classical tradition.
 
-The feature includes high-quality reproductions of several key works from Anne's trompe-l'oeil collection, including "Cabinet of Memories," "Oriental Collection," and "Delftware Collection." The article explores how Anne's self-taught background has allowed her to develop a distinctive voice within the classical tradition.
+Anne's philosophy of "paint what you love" was central to the piece, showcasing her particular fascination with antique objects that have survived centuries. Her practice of collecting vessels from antique shops, charity shops, online auctions, and market stalls provides the foundation for her carefully composed still life arrangements.
 
-"It's wonderfully validating to see my work recognised alongside other artists who share my passion for this demanding technique," Anne commented. "Trompe-l'oeil requires not just technical skill, but a deep understanding of how objects relate to space and light."
-
-The magazine feature is expected to introduce Anne's work to a broader international audience of collectors and art enthusiasts.`
+The recognition from Saatchi Online has helped introduce Anne's work to a broader international audience of collectors and art enthusiasts who appreciate her contemporary approach to traditional techniques.`
   }
 ];
 

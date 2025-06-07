@@ -57,7 +57,7 @@ export default function HomePage() {
               <Link to="/galleries/recent-works" className="bg-accent-gold text-white px-8 py-3 rounded-sm font-medium hover:bg-accent-copper transition-colors duration-300 shadow-lg">
                 View Recent Works
               </Link>
-              <Link to="/about" className="border-2 border-accent-gold text-accent-gold px-8 py-3 rounded-sm font-medium hover:bg-accent-gold hover:text-white transition-all duration-300">
+              <Link to="/about" className="border-2 border-primary-dark text-primary-dark bg-white/90 px-8 py-3 rounded-sm font-medium hover:bg-primary-dark hover:text-white transition-all duration-300">
                 About the Artist
               </Link>
             </div>
