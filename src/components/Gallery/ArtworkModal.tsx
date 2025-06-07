@@ -205,65 +205,13 @@ export default function ArtworkModal({
                       </h3>
                       
                       <div className="space-y-2 text-sm">
-                        {artwork.year && (
-                          <div className="flex justify-between">
-                            <span className="text-text-light">Year:</span>
-                            <span className="font-medium">{artwork.year}</span>
-                          </div>
-                        )}
-                        
                         <div className="flex justify-between">
                           <span className="text-text-light">Dimensions:</span>
                           <span className="font-medium">{artwork.dimensions}</span>
                         </div>
-                        
-                        <div className="flex justify-between">
-                          <span className="text-text-light">Medium:</span>
-                          <span className="font-medium">{artwork.medium}</span>
-                        </div>
-                        
-                        <div className="flex justify-between">
-                          <span className="text-text-light">Availability:</span>
-                          <span className={`font-medium ${artwork.available ? 'text-green-600' : 'text-red-600'}`}>
-                            {artwork.available ? 'Available' : 'Sold'}
-                          </span>
-                        </div>
-                        
-                        {artwork.price && artwork.available && (
-                          <div className="flex justify-between pt-2 border-t">
-                            <span className="text-text-light">Price:</span>
-                            <span className="font-semibold text-accent-gold text-lg">
-                              {artwork.price}
-                            </span>
-                          </div>
-                        )}
                       </div>
                     </div>
 
-                    {artwork.description && (
-                      <div>
-                        <h4 className="font-semibold text-primary-dark mb-2">Description</h4>
-                        <p className="text-text-dark leading-relaxed">
-                          {artwork.description}
-                        </p>
-                      </div>
-                    )}
-
-                    {artwork.tags && artwork.tags.length > 0 && (
-                      <div>
-                        <h4 className="font-semibold text-primary-dark mb-2">Tags</h4>
-                        <div className="flex flex-wrap gap-2">
-                          {artwork.tags.map((tag, index) => (
-                            <span
-                              key={index}
-                              className="text-xs bg-neutral-cream text-text-dark px-3 py-1 rounded-full"
-                            >
-                              {tag}
-                            </span>
-                          ))}
-                        </div>
-                      </div>
-                    )}
 
                     {/* Action buttons */}
                     <div className="space-y-3 pt-4 border-t">
