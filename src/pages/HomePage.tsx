@@ -24,14 +24,17 @@ export default function HomePage() {
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
-      <section className="relative h-screen flex items-center justify-center bg-gradient-to-br from-primary-light to-neutral-cream">
-        <div className="absolute inset-0 opacity-20">
+      <section className="relative h-screen flex items-center justify-center bg-gradient-to-br from-background-gallery via-neutral-warm to-neutral-sand">
+        <div className="absolute inset-0 opacity-25">
           <img
             src="/images/homepage/cider-flagon-with-pears/anne-songhurst-cider-flagon-with-pears-12x16.jpg"
             alt="Anne Songhurst artwork"
             className="w-full h-full object-cover"
           />
         </div>
+        
+        {/* Decorative overlay pattern */}
+        <div className="absolute inset-0 opacity-5 bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDAiIGhlaWdodD0iNDAiIHZpZXdCb3g9IjAgMCA0MCA0MCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICA8ZGVmcz4KICAgIDxwYXR0ZXJuIGlkPSJncmlkIiB3aWR0aD0iNDAiIGhlaWdodD0iNDAiIHBhdHRlcm5Vbml0cz0idXNlclNwYWNlT25Vc2UiPgogICAgICA8cGF0aCBkPSJNIDQwIDAgTCAwIDAgMCA0MCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjMDAwIiBzdHJva2Utd2lkdGg9IjEiLz4KICAgIDwvcGF0dGVybj4KICA8L2RlZnM+CiAgPHJlY3Qgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgZmlsbD0idXJsKCNncmlkKSIvPgo8L3N2Zz4=')]"></div>
         
         <div className="relative text-center px-4 max-w-4xl mx-auto">
           <motion.div
@@ -79,21 +82,27 @@ export default function HomePage() {
       </section>
 
       {/* Artist Quote */}
-      <section className="py-20 bg-white">
-        <div className="section-container text-center">
+      <section className="py-20 bg-gradient-to-r from-neutral-cream via-white to-neutral-warm relative overflow-hidden">
+        {/* Decorative elements */}
+        <div className="absolute top-0 left-0 w-32 h-32 bg-accent-gold/5 rounded-full -translate-x-16 -translate-y-16"></div>
+        <div className="absolute bottom-0 right-0 w-48 h-48 bg-accent-bronze/5 rounded-full translate-x-24 translate-y-24"></div>
+        
+        <div className="section-container text-center relative">
           <motion.blockquote
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6 }}
-            className="text-2xl md:text-3xl font-display text-primary-dark italic max-w-3xl mx-auto"
+            className="text-2xl md:text-3xl font-display text-primary-dark italic max-w-3xl mx-auto relative"
           >
-            "Paint what you love"
+            <span className="absolute -left-8 -top-4 text-6xl text-accent-gold/20 font-serif">"</span>
+            Paint what you love
+            <span className="absolute -right-8 -bottom-4 text-6xl text-accent-gold/20 font-serif">"</span>
           </motion.blockquote>
           <motion.p
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.2 }}
-            className="mt-4 text-text-light"
+            className="mt-6 text-text-light font-medium"
           >
             — Anne Songhurst's guiding philosophy
           </motion.p>
@@ -101,7 +110,7 @@ export default function HomePage() {
       </section>
 
       {/* Featured Works */}
-      <section className="py-20 bg-neutral-cream">
+      <section className="py-20 bg-background-gallery">
         <div className="section-container">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -153,7 +162,7 @@ export default function HomePage() {
       </section>
 
       {/* About Preview */}
-      <section className="py-20 bg-white">
+      <section className="py-20 bg-gradient-to-br from-white via-neutral-warm to-background-section">
         <div className="section-container">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <motion.div
@@ -247,7 +256,7 @@ export default function HomePage() {
       </section>
 
       {/* Contact CTA */}
-      <section className="py-20 bg-neutral-cream">
+      <section className="py-20 bg-gradient-to-r from-background-gallery via-neutral-sand to-neutral-warm">
         <div className="section-container text-center">
           <motion.div
             initial={{ opacity: 0, y: 20 }}

@@ -10,20 +10,27 @@ export default {
         // Dutch Masters inspired palette
         primary: {
           dark: '#2C2B28',
-          light: '#F8F6F0',
+          light: '#FAF7F2',
         },
         accent: {
           gold: '#B8860B',
           brown: '#8B4513',
           burgundy: '#722F37',
+          bronze: '#CD7F32',
         },
         neutral: {
-          cream: '#FDF8F3',
-          warm: '#F5F5F5',
+          cream: '#F9F6F1',
+          warm: '#F2EFE8',
+          sand: '#E8E4DB',
+          stone: '#D4CFC4',
         },
         text: {
           dark: '#333333',
-          light: '#666666',
+          light: '#5A5A5A',
+        },
+        background: {
+          gallery: '#F7F4EF',
+          section: '#F4F1EC',
         }
       },
       fontFamily: {

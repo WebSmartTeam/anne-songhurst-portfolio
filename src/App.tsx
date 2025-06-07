@@ -2,55 +2,14 @@ import { Routes, Route } from 'react-router-dom';
 import { Layout } from './components/Layout';
 import HomePage from './pages/HomePage';
 import GalleriesPage from './pages/GalleriesPage';
+import AboutPage from './pages/AboutPage';
+import NewsPage from './pages/NewsPage';
+import ContactPage from './pages/ContactPage';
 import { GalleryGrid } from './components/Gallery';
 import { recentWorksData, trompeLoeilData, archiveData, offTheEaselData, availableArtworks } from './utils/artworkData';
 
 // Simple placeholder components for routes not yet implemented
-const AboutPage = () => (
-  <div className="min-h-screen bg-primary-light py-20">
-    <div className="section-container text-center">
-      <h1 className="page-header">About Anne Songhurst</h1>
-      <p className="text-lg text-text-light max-w-3xl mx-auto">
-        This page is coming soon. Please visit the contact page to learn more about Anne's background and artistic journey.
-      </p>
-    </div>
-  </div>
-);
 
-const ContactPage = () => (
-  <div className="min-h-screen bg-primary-light py-20">
-    <div className="section-container text-center">
-      <h1 className="page-header">Contact</h1>
-      <div className="max-w-2xl mx-auto space-y-6">
-        <p className="text-lg text-text-light">
-          Get in touch with Anne Songhurst for commissions, enquiries, or to purchase artwork.
-        </p>
-        <div className="bg-white p-8 rounded-lg shadow-lg">
-          <h2 className="text-2xl font-display text-primary-dark mb-4">Contact Information</h2>
-          <div className="space-y-4 text-left">
-            <div>
-              <h3 className="font-semibold text-primary-dark">Email</h3>
-              <a href="mailto:anne.songhurst@ntlworld.com" className="text-accent-gold hover:underline">
-                anne.songhurst@ntlworld.com
-              </a>
-            </div>
-            <div>
-              <h3 className="font-semibold text-primary-dark">Social Media</h3>
-              <div className="space-x-4">
-                <a href="https://www.instagram.com/annesonghurst/" target="_blank" rel="noopener noreferrer" className="text-accent-gold hover:underline">
-                  Instagram
-                </a>
-                <a href="https://www.pinterest.co.uk/annesonghurstart/" target="_blank" rel="noopener noreferrer" className="text-accent-gold hover:underline">
-                  Pinterest
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-);
 
 const ExhibitionsPage = () => (
   <div className="min-h-screen bg-primary-light py-20">
@@ -64,16 +23,6 @@ const ExhibitionsPage = () => (
   </div>
 );
 
-const NewsPage = () => (
-  <div className="min-h-screen bg-primary-light py-20">
-    <div className="section-container text-center">
-      <h1 className="page-header">News</h1>
-      <p className="text-lg text-text-light max-w-3xl mx-auto">
-        Latest news and updates coming soon. Follow Anne on Instagram @annesonghurst for the latest updates.
-      </p>
-    </div>
-  </div>
-);
 
 function App() {
   return (
