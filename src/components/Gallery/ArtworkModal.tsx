@@ -211,34 +211,6 @@ export default function ArtworkModal({
                         </div>
                       </div>
                     </div>
-
-
-                    {/* Action buttons */}
-                    <div className="space-y-3 pt-4 border-t">
-                      <button
-                        onClick={handleEnquiry}
-                        className="w-full btn-primary flex items-center justify-center space-x-2"
-                      >
-                        <EnvelopeIcon className="h-5 w-5" />
-                        <span>Enquire About This Piece</span>
-                      </button>
-                      
-                      {artwork.available && (
-                        <button className="w-full btn-secondary">
-                          Request Price & Availability
-                        </button>
-                      )}
-                    </div>
-
-                    <div className="text-xs text-text-light pt-4 border-t">
-                      <p>Interested in commissioning a similar piece?</p>
-                      <button 
-                        onClick={handleEnquiry}
-                        className="text-accent-gold hover:underline"
-                      >
-                        Contact the artist
-                      </button>
-                    </div>
                   </div>
                 </div>
               </div>
