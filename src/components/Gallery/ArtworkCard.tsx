@@ -79,23 +79,6 @@ export default function ArtworkCard({ artwork, onViewDetails, priority = false }
           </div>
         </div>
 
-        {/* Availability badge */}
-        {artwork.available && (
-          <div className="absolute top-3 right-3">
-            <span className="bg-green-500 text-white text-xs px-2 py-1 rounded-full font-medium">
-              Available
-            </span>
-          </div>
-        )}
-
-        {/* Featured badge */}
-        {artwork.featured && (
-          <div className="absolute top-3 left-3">
-            <span className="bg-accent-gold text-white text-xs px-2 py-1 rounded-full font-medium">
-              Featured
-            </span>
-          </div>
-        )}
       </div>
 
       {/* Artwork information */}
