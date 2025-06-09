@@ -30,8 +30,8 @@ export default function NewsPage() {
           >
             <h1 className="page-header">News & Updates</h1>
             <p className="text-lg text-text-light max-w-3xl mx-auto leading-relaxed">
-              Stay updated with Anne Songhurst's latest exhibitions, new works, 
-              and artistic developments in the world of contemporary still life painting.
+              Recent exhibitions and updates from Anne Songhurst's artistic journey. 
+              For the latest works and current availability, please visit the galleries section.
             </p>
           </motion.div>
         </div>

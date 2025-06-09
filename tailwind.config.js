@@ -9,7 +9,7 @@ export default {
       colors: {
         // Modern elegant palette inspired by galleries
         primary: {
-          dark: '#1A1B23',
+          dark: '#6A6A58',
           medium: '#2D2E36',
           light: '#F5F3F0',
         },
@@ -32,9 +32,9 @@ export default {
           muted: '#999999',
         },
         background: {
-          main: '#FDFCFA',
-          gallery: '#F6F4F1',
-          section: '#F2F0ED',
+          main: '#babaa9',
+          gallery: '#babaa9',
+          section: '#babaa9',
           card: '#FFFFFF',
         }
       },

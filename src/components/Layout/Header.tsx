@@ -77,7 +77,8 @@ export default function Header() {
               <div key={item.name} className="relative group">
                 {item.submenu ? (
                   <>
-                    <button
+                    <Link
+                      to={item.href}
                       className={`text-base font-medium transition-colors duration-200 px-3 py-2 rounded-sm ${
                         isActive(item.href)
                           ? 'text-accent-gold border-b-2 border-accent-gold'
@@ -87,7 +88,7 @@ export default function Header() {
                       onMouseLeave={() => setGalleryMenuOpen(false)}
                     >
                       {item.name}
-                    </button>
+                    </Link>
                     <AnimatePresence>
                       {galleryMenuOpen && (
                         <motion.div

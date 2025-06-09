@@ -186,9 +186,8 @@ export default function HomePage() {
                   to detail and masterful use of light and shadow.
                 </p>
                 <p>
-                  Her paintings are held in permanent collections at galleries 
-                  throughout Hertfordshire, Bedfordshire, and London, and have 
-                  been featured in Saatchi Online Magazine.
+                  Her paintings are represented by galleries throughout England, 
+                  with works displayed in prestigious venues across the country.
                 </p>
               </div>
               <div className="mt-8">
@@ -232,11 +231,10 @@ export default function HomePage() {
             </p>
           </motion.div>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             {[
               { name: 'Wren Gallery', location: 'Burford' },
-              { name: 'Norton Way Gallery', location: 'Letchworth' },
-              { name: 'The Marylebone Gallery', location: 'London' }
+              { name: 'Norton Way Gallery', location: 'Letchworth Garden City' }
             ].map((gallery, index) => (
               <motion.div
                 key={gallery.name}

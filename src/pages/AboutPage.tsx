@@ -1,4 +1,5 @@
 import { motion } from 'framer-motion';
+import { Link } from 'react-router-dom';
 
 export default function AboutPage() {
   return (
@@ -164,14 +165,13 @@ export default function AboutPage() {
               transition={{ duration: 0.6 }}
               className="bg-background-gallery p-8 rounded-lg"
             >
-              <h3 className="text-xl font-display text-primary-dark mb-4">Critical Recognition</h3>
+              <h3 className="text-xl font-display text-primary-dark mb-4">Artistic Approach</h3>
               <div className="space-y-4">
                 <div>
-                  <h4 className="font-semibold text-accent-gold">Saatchi Online Magazine (2009)</h4>
+                  <h4 className="font-semibold text-accent-gold">Self-Taught Excellence</h4>
                   <p className="text-text-dark text-sm">
-                    Featured artist with critic Ana Finel Honigman praising Anne as a 
-                    "self-taught artist" whose work "benefited from being untouched by 
-                    art school training."
+                    Anne's unique artistic voice has developed through dedication and passion, 
+                    allowing her natural talent to flourish without formal academic constraints.
                   </p>
                 </div>
               </div>
@@ -217,12 +217,12 @@ export default function AboutPage() {
               >
                 Contact Anne
               </a>
-              <a 
-                href="/galleries"
+              <Link 
+                to="/galleries"
                 className="border-2 border-accent-gold text-accent-gold px-6 py-3 rounded-sm font-medium hover:bg-accent-gold hover:text-white transition-all duration-300"
               >
                 View Galleries
-              </a>
+              </Link>
             </div>
           </motion.div>
         </div>

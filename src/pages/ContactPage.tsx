@@ -77,7 +77,7 @@ ${data.email}
                 </div>
               )}
 
-              <form onSubmit={handleSubmit(onSubmit)} className="space-y-6">
+              <form onSubmit={handleSubmit(onSubmit)} className="space-y-4">
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                   <div>
                     <label htmlFor="name" className="block text-sm font-medium text-text-dark mb-2">
@@ -165,10 +165,10 @@ ${data.email}
                   </label>
                   <textarea
                     id="message"
-                    rows={6}
+                    rows={4}
                     {...register('message', { required: 'Message is required' })}
                     placeholder="Please tell Anne about your enquiry, commission ideas, or any questions you may have..."
-                    className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-accent-gold focus:border-transparent"
+                    className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-accent-gold focus:border-transparent resize-none"
                   />
                   {errors.message && (
                     <p className="mt-1 text-sm text-red-600">{errors.message.message}</p>

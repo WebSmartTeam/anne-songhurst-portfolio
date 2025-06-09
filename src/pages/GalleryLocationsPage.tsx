@@ -1,4 +1,5 @@
 import { motion } from 'framer-motion';
+import { Link } from 'react-router-dom';
 
 const galleries = [
   {
@@ -145,12 +146,12 @@ export default function GalleryLocationsPage() {
               >
                 Gallery Enquiries
               </a>
-              <a
-                href="/galleries"
+              <Link
+                to="/galleries"
                 className="border-2 border-accent-gold text-accent-gold px-6 py-3 rounded-sm font-medium hover:bg-accent-gold hover:text-white transition-all duration-300"
               >
                 View Paintings
-              </a>
+              </Link>
             </div>
           </motion.div>
         </div>

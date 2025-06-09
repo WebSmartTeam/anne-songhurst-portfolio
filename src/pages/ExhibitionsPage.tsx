@@ -1,50 +1,28 @@
 import { motion } from 'framer-motion';
+import { Link } from 'react-router-dom';
 
 const exhibitions = [
   {
     id: 1,
-    title: 'Solo Exhibition: Still Life Reflections',
+    title: 'Gallery Representation',
     venue: 'Wren Gallery',
     location: 'Burford, Oxfordshire',
-    startDate: '2024-03-15',
-    endDate: '2024-04-30',
-    type: 'solo',
-    current: false,
-    description: 'A comprehensive showcase of Anne\'s latest still life paintings, featuring her signature Dutch Master-inspired technique applied to contemporary subjects. This exhibition highlighted her mastery of light and texture through carefully arranged compositions of antique vessels and seasonal produce.'
+    startDate: '2007-01-01',
+    endDate: '',
+    type: 'ongoing',
+    current: true,
+    description: 'Anne Songhurst has been a gallery artist at Wren Gallery since 2007, with regular exhibitions showcasing her contemporary still life paintings and trompe-l\'oeil works.'
   },
   {
     id: 2,
-    title: 'Contemporary Masters: Trompe L\'Oeil Today',
-    venue: 'The Marylebone Gallery',
-    location: 'London',
-    startDate: '2023-11-10',
-    endDate: '2023-12-22',
-    type: 'group',
-    current: false,
-    description: 'A group exhibition featuring leading practitioners of trompe-l\'oeil technique in contemporary art. Anne\'s cabinet paintings were featured alongside international artists, demonstrating the continued relevance of this classical approach in modern artistic practice.'
-  },
-  {
-    id: 3,
-    title: 'Hertfordshire Artists Collective',
+    title: 'Local Exhibitions',
     venue: 'Norton Way Gallery',
     location: 'Letchworth, Hertfordshire',
-    startDate: '2023-09-01',
-    endDate: '2023-10-15',
+    startDate: '',
+    endDate: '',
     type: 'group',
-    current: false,
-    description: 'An annual exhibition showcasing the best of local artistic talent. Anne\'s still life works were selected to represent the traditional painting category, highlighting her role as a leading voice in contemporary realism within the county.'
-  },
-  {
-    id: 4,
-    title: 'Upcoming: Spring Collection 2025',
-    venue: 'Wren Gallery',
-    location: 'Burford, Oxfordshire',
-    startDate: '2025-04-01',
-    endDate: '2025-05-31',
-    type: 'solo',
-    current: false,
-    upcoming: true,
-    description: 'Anne\'s next solo exhibition will feature her latest works inspired by spring\'s arrival. The collection will include new paintings of early flowers, seasonal fruits, and the interplay of natural and artificial light in her compositions.'
+    current: true,
+    description: 'Regular participation in group exhibitions and local shows featuring Hertfordshire artists, highlighting Anne\'s contribution to the regional art scene.'
   }
 ];
 
@@ -62,13 +40,6 @@ const galleries = [
     description: 'Local gallery supporting Hertfordshire artists with regular exhibitions and community engagement.',
     relationship: 'Regular group exhibitions and local representation.',
     website: 'nortonwaygallery.co.uk'
-  },
-  {
-    name: 'The Marylebone Gallery',
-    location: 'London',
-    description: 'London-based gallery focusing on contemporary realism and traditional techniques in modern art.',
-    relationship: 'Group exhibitions and special collections.',
-    website: 'maryllebonegallery.com'
   }
 ];
 
@@ -101,7 +72,7 @@ export default function ExhibitionsPage() {
             transition={{ duration: 0.6 }}
             className="text-center mb-12"
           >
-            <h2 className="text-3xl font-display text-primary-dark mb-4">Exhibitions</h2>
+            <h2 className="text-3xl font-display text-primary-dark mb-4">Exhibiting History</h2>
           </motion.div>
 
           <div className="space-y-8">
@@ -111,9 +82,7 @@ export default function ExhibitionsPage() {
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.6, delay: index * 0.1 }}
-                className={`bg-background-card rounded-lg shadow-lg overflow-hidden ${
-                  exhibition.upcoming ? 'border-2 border-accent-gold' : ''
-                }`}
+                className="bg-background-card rounded-lg shadow-lg overflow-hidden"
               >
                 <div className="p-8">
                   <div className="flex flex-col md:flex-row md:items-start md:justify-between mb-4">
@@ -122,11 +91,6 @@ export default function ExhibitionsPage() {
                         <h3 className="text-2xl font-display text-primary-dark">
                           {exhibition.title}
                         </h3>
-                        {exhibition.upcoming && (
-                          <span className="bg-accent-gold text-white text-xs px-3 py-1 rounded-full font-medium">
-                            Upcoming
-                          </span>
-                        )}
                         <span className={`text-xs px-3 py-1 rounded-full font-medium ${
                           exhibition.type === 'solo' 
                             ? 'bg-accent-copper text-white' 
@@ -244,12 +208,12 @@ export default function ExhibitionsPage() {
               >
                 Contact for Exhibitions
               </a>
-              <a
-                href="/galleries"
+              <Link
+                to="/galleries"
                 className="border-2 border-accent-gold text-accent-gold px-6 py-3 rounded-sm font-medium hover:bg-accent-gold hover:text-white transition-all duration-300"
               >
                 View Available Works
-              </a>
+              </Link>
             </div>
 
             <div className="mt-8 pt-8 border-t border-gray-600">

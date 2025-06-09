@@ -1,4 +1,4 @@
-import { Routes, Route } from 'react-router-dom';
+import { Routes, Route, Link } from 'react-router-dom';
 import { Layout } from './components/Layout';
 import HomePage from './pages/HomePage';
 import GalleriesPage from './pages/GalleriesPage';
@@ -111,9 +111,9 @@ function App() {
                 <p className="text-lg text-text-light mb-8">
                   The page you're looking for doesn't exist.
                 </p>
-                <a href="/" className="btn-primary">
+                <Link to="/" className="btn-primary">
                   Return Home
-                </a>
+                </Link>
               </div>
             </div>
           } 

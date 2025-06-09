@@ -29,7 +29,7 @@ const galleryCards = [
     description: 'Historical collection of Anne\'s earlier masterpieces',
     href: '/galleries/archive',
     artworks: archiveData,
-    coverImage: '/images/paintings/archive/cider-flagon-with-pears/anne-songhurst-cider-flagon-with-pears-14x18.jpg'
+    coverImage: '/images/paintings/archive/basket-with-eggs/anne-songhurst-basket-with-eggs-10x12.jpg'
   }
 ];
 
@@ -159,7 +159,7 @@ export default function GalleriesPage() {
                 label: 'Years Creating' 
               },
               { 
-                number: 3, 
+                number: 2, 
                 label: 'Gallery Partners' 
               }
             ].map((stat, index) => (
