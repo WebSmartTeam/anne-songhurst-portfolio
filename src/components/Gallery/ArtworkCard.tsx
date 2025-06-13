@@ -28,7 +28,7 @@ export default function ArtworkCard({ artwork, onViewDetails, priority = false }
       initial={{ opacity: 0, y: 20 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.5 }}
-      className="gallery-card group cursor-pointer"
+      className="gallery-card group cursor-pointer h-full flex flex-col"
       onClick={() => onViewDetails(artwork)}
     >
       <div className="relative overflow-hidden bg-neutral-warm">
@@ -82,7 +82,7 @@ export default function ArtworkCard({ artwork, onViewDetails, priority = false }
       </div>
 
       {/* Artwork information */}
-      <div className="p-4">
+      <div className="p-4 flex-1 flex flex-col">
         <h3 className="artwork-title text-lg font-semibold text-primary-dark mb-1 line-clamp-2">
           {artwork.title}
         </h3>
@@ -101,11 +101,13 @@ export default function ArtworkCard({ artwork, onViewDetails, priority = false }
           )}
         </div>
 
-        {artwork.description && (
-          <p className="mt-2 text-sm text-text-light line-clamp-2">
-            {artwork.description}
-          </p>
-        )}
+        <div className="flex-1">
+          {artwork.description && (
+            <p className="mt-2 text-sm text-text-light line-clamp-2">
+              {artwork.description}
+            </p>
+          )}
+        </div>
 
         {/* Tags */}
         {artwork.tags && artwork.tags.length > 0 && (

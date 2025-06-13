@@ -35,7 +35,7 @@
   }
   
   .gallery-card {
-    @apply bg-white rounded-lg shadow-md overflow-hidden hover:shadow-xl transition-shadow duration-300;
+    @apply bg-white rounded-lg shadow-md overflow-hidden hover:shadow-xl transition-shadow duration-300 h-full;
   }
   
   .gallery-card:hover img {

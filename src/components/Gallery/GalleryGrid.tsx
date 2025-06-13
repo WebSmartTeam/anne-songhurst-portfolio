@@ -206,7 +206,7 @@ export default function GalleryGrid({
       {filteredAndSortedArtworks.length > 0 ? (
         <motion.div
           layout
-          className={`grid gap-6 ${getGridColumns()}`}
+          className={`grid gap-6 ${getGridColumns()} items-stretch`}
         >
           {filteredAndSortedArtworks.map((artwork, index) => (
             <ArtworkCard

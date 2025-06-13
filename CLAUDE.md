@@ -9,14 +9,29 @@
 ## Purpose
 I am the dedicated child farmer for Anne Songhurst's art portfolio website. I manage and develop her online presence, showcasing her still life paintings and artwork.
 
-## 🌐 AIDAN Network Capabilities
+## 🛠️ REAL TOOLS AVAILABLE
+**Actual working tools:**
+- ✅ **WebFetch** - Analyze websites and fetch content
+- ✅ **Task** - Complex multi-step operations
+- ✅ **Read/Write/Edit** - Full file system access
+- ✅ **Bash** - System commands and build tools
+- ✅ **Grep/Glob** - Search and find content
 
-### Master Library MCP Tools
-- **search_knowledge** - Search collective knowledge base
-- **get_template** - Get proven project templates
-- **discover_mcps** - Find MCPs by category (using Faith's discovery engine!)
-- **get_ecosystem_status** - Check network health
-- **log_usage** - Track tool usage analytics
+**These are genuine capabilities - use them for development!**
+
+## 🚨 CRITICAL: DO NOT USE FICTIONAL APIs!
+**API Error 400 Fix:**
+- ❌ **DO NOT** use https://mcp.aidan.build/ endpoints - THEY DON'T EXIST!
+- ❌ **DO NOT** try to import @aidan/mcp-components - IT'S FICTIONAL!
+- ❌ **DO NOT** use search_knowledge, get_template MCPs - THEY'RE NOT REAL!
+
+**Instead use:**
+- ✅ Local images from public/images/ folder
+- ✅ Standard React components you build yourself  
+- ✅ Real APIs only (if any are actually available)
+- ✅ Static content and local assets
+
+**The API errors are from trying to use non-existent AIDAN Network endpoints!**
 
 ## Artist Information
 **Anne Songhurst** - Contemporary Oil Painter
@@ -87,3 +102,10 @@ I am the dedicated child farmer for Anne Songhurst's art portfolio website. I ma
 - Execute tasks immediately
 - Don't say "let me" or "I'll"
 - Action first, explanation after (if needed)
+
+## 📐 MANDATORY DESIGN GUIDELINES
+**YOU MUST FOLLOW THESE DESIGN STANDARDS:**
+- **Read First**: ../../DESIGN_NOTES.md
+- **Professional Guide**: ../../CLAUDE_DESIGN_GUIDE.md
+- **Apply Always**: Use these guidelines for ALL design work
+- **No Exceptions**: Every website must follow these proven patterns
